@@ -37,7 +37,7 @@ with st.form("crop_recommendation_form"):
 
     # Soil nutrient inputs
     nitrogen = st.number_input(
-        "Nitrogen (N)",
+        "Nitrogen (N) — Range: 0–140",
         min_value=0.0,
         max_value=140.0,
         value=23.0,
@@ -45,7 +45,7 @@ with st.form("crop_recommendation_form"):
     )
 
     phosphorus = st.number_input(
-        "Phosphorus (P)",
+        "Phosphorus (P) — Range: 5–145",
         min_value=5.0,
         max_value=145.0,
         value=67.0,
@@ -53,7 +53,7 @@ with st.form("crop_recommendation_form"):
     )
 
     potassium = st.number_input(
-        "Potassium (K)",
+        "Potassium (K) — Range: 5–205",
         min_value=5.0,
         max_value=205.0,
         value=45.0,
@@ -62,7 +62,7 @@ with st.form("crop_recommendation_form"):
 
     # Environmental inputs
     temperature = st.number_input(
-        "Temperature (°C)",
+        "Temperature (°C) — Range: 8–44",
         min_value=8.0,
         max_value=44.0,
         value=34.0,
@@ -70,7 +70,7 @@ with st.form("crop_recommendation_form"):
     )
 
     humidity = st.number_input(
-        "Humidity (%)",
+        "Humidity (%) — Range: 14–100",
         min_value=14.0,
         max_value=100.0,
         value=35.0,
@@ -78,7 +78,7 @@ with st.form("crop_recommendation_form"):
     )
 
     soil_ph = st.number_input(
-        "Soil pH",
+        "Soil pH — Range: 3.5–10",
         min_value=3.5,
         max_value=10.0,
         value=4.6,
@@ -86,7 +86,7 @@ with st.form("crop_recommendation_form"):
     )
 
     rainfall = st.number_input(
-        "Rainfall (mm)",
+        "Rainfall (mm) — Range: 20–300",
         min_value=20.0,
         max_value=300.0,
         value=70.0,
