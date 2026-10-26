@@ -1,0 +1,5 @@
+# Libraries required by the Crop Recommendation System
+scikit-learn==1.6.1
+streamlit==1.66.1
+joblib==1.6.0
+pandas==2.2.3
